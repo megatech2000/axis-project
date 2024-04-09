@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.section-width {
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.menu-scroll {
+  transition: all 500ms;
+}
+.swiper-container {
+  width: 25%;
+  height: 500px;
+}
+
+.swiper-slide {
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Adjusting container size */
+.swiper-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Custom arrow styles */
+.custom-swiper-button {
+  position: absolute;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.custom-swiper-button img {
+  width: 30px;
+  height: 30px;
+}
+
+.custom-swiper-button-prev {
+  color: white;
+  left: 10px;
+}
+
+.custom-swiper-button-next {
+  color: white;
+  right: 10px; /* Adjust the position of the next button */
+}
+
+/* Pagination bullets */
+.swiper-pagination-bullet {
+  border-radius: 0 !important;
+  margin: 0 10px;
+  padding: 8px;
+  background-color: #0b0a0a !important;
+}
+
+/* Active pagination bullet */
+.swiper-pagination-bullet-active {
+  background-color: #fff !important;
+}
+
+.grid-img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th,
+td {
+  border: 1px solid black;
+  padding-left: 50px;
+  text-align: left;
+  border-radius: 20px;
+}
+th:first-child,
+td:first-child {
+  width: 70%;
+}
+th:nth-child(2),
+td:nth-child(2) {
+  width: 30%;
+  height: 100px;
+}
+
+tbody tr:nth-child(9),
+tbody tr:nth-child(10) {
+  height: 150px;
+}
+
+.bg-grid {
+  background-image: url("/img/new-texture.png");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.scroll-hidden::-webkit-scrollbar {
+  display: none;
+}

@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- navbar start -->
+    <header class="px-10 xl:px-20 absolute top-0 w-full z-[1000]">
+      <nav class="flex items-center justify-between py-10">
+        <div>
+          <img class="h-14 lg:h-20" src="/img/logo.png" alt="" />
+        </div>
+        <div>
+          <ul
+            class="menu-scroll absolute top-[120px] left-[-100%] w-[100%] sm:w-[50%] md:w-full rounded-l-xl sm:rounded-l-none rounded-r-2xl px-14 md:px-0 md:static bg-gray-100 md:bg-transparent md:flex gap-10 xl:text-sm 2xl:text-lg font-semibold text-[#f2f0f0]"
+          >
+            <li class="mt-5 md:mt-0">
+              <a href="" class="text-black md:text-white">ABOUT US</a>
+            </li>
+            <li class="mt-5 md:mt-0">
+              <a href="" class="text-black md:text-white"
+                >THE AXIS DIFFERENCE</a
+              >
+            </li>
+            <li class="mt-5 md:mt-0">
+              <a href="" class="text-black md:text-white">EXPERIEN NIRVANA</a>
+            </li>
+            <li class="mt-5 md:mt-0 mb-5 md:mb-0">
+              <a href="" class="text-black md:text-white">CONTACT US</a>
+            </li>
+          </ul>
+        </div>
+        <div class="text-2xl text-white md:hidden cursor-pointer">
+          <div id="menuIcon" class="text-2xl text-white md:hidden">
+            <i class="fa-solid fa-bars-staggered"></i>
+          </div>
+
+          <div id="closeIcon" class="text-2xl text-white md:hidden hidden">
+            <i class="fa-solid fa-xmark"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- navbar end -->
+
+    <!-- banner start -->
+    <section>
+      <div class="h-screen relative">
+        <img class="w-full h-full" src="/img/banner.jpg" alt="" />
+      </div>
+      <div
+        class="absolute top-[30%] md:top-[40%] flex flex-col justify-center items-center w-full"
+      >
+        <h1 class="text-white text-4xl md:text-6xl font-extrabold">
+          StayVista <span class="font-semibold">NIRVANA</span>
+        </h1>
+        <h2 class="text-white text-2xl font-semibold pt-5 text-center">
+          Your Oasis Of Luxury And Serenity In
+          <span class="font-extrabold"> Bengaluru</span> ...
+        </h2>
+      </div>
+      <div class="absolute bottom-[10%] px-14 md:px-20 xl:px-20">
+        <div class="flex flex-col gap-5 xl:gap-10">
+          <a href="">
+            <i class="fa-brands fa-whatsapp text-white text-xl xl:text-2xl"></i>
+          </a>
+          <a href="">
+            <i
+              class="fa-brands fa-facebook-f text-white text-xl xl:text-2xl"
+            ></i>
+          </a>
+          <a href="">
+            <i
+              class="fa-brands fa-instagram text-white text-xl xl:text-2xl"
+            ></i>
+          </a>
+          <a href="">
+            <i
+              class="fa-brands fa-linkedin-in text-white text-xl xl:text-2xl"
+            ></i>
+          </a>
+          <div>
+            <p
+              class="text-xl xl:text-2xl text-white font-semibold tracking-widest"
+            >
+              CONTACT US NOW
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- banner end -->
+
+    <!-- cards start -->
+    <section class="mt-[-60px] bg-[#eeecec] overflow-hidden">
+      <div class="swiper-container">
+        <div class="swiper-wrapper flex gap-0 2xl:gap-20">
+          <div class="swiper-slide rounded-2xl">
+            <div
+              class="w-full p-10 items-center h-full rounded-2xl bg-gray-100 shadow-md"
+            >
+              <div class="w-full h-full">
+                <img class="w-full h-full" src="/img/Pic-04.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide rounded-2xl">
+            <div
+              class="w-full p-10 items-center h-full bg-gray-100 rounded-2xl shadow-md"
+            >
+              <div class="w-full h-full">
+                <img class="w-full h-full" src="/img/Pic-05.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide rounded-2xl">
+            <div
+              class="w-full p-10 items-center h-full bg-gray-100 rounded-2xl shadow-md"
+            >
+              <div class="w-full h-full">
+                <img class="w-full h-full" src="/img/Pic-06.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide rounded-2xl">
+            <div
+              class="flex w-full p-10 items-center h-full bg-gray-100 rounded-2xl shadow-md"
+            >
+              <div class="w-full h-full">
+                <img class="w-full h-full" src="/img/Pic-07.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide rounded-2xl">
+            <div
+              class="flex w-full p-10 items-center h-full bg-gray-100 rounded-2xl shadow-md"
+            >
+              <div class="w-full h-full">
+                <img class="w-full h-full" src="/img/room-1.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+          <!-- Add more slides here -->
+        </div>
+        <!-- If we need pagination -->
+
+        <!-- Custom navigation arrows -->
+      </div>
+
+      <div class="pt-10 flex items-end justify-center">
+        <div
+          class="p-10 rounded-t-xl flex gap-36 items-center bg-[#fff] justify-center"
+        >
+          <div
+            class="custom-swiper-button-prev text-4xl text-black cursor-pointer"
+          >
+            <!-- <i class="fa-solid fa-arrow-left"></i> -->
+            <i class="fa-solid fa-arrow-left"></i>
+          </div>
+          <div
+            class="custom-swiper-button-next text-4xl text-black cursor-pointer"
+          >
+            <!-- <i class="fa-solid fa-arrow-right"></i> -->
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- cards end -->
+
+    <!-- Elevated life start -->
+
+    <section
+      class="grid-img pb-20"
+      style="background-image: url('img/new-texture.png')"
+    >
+      <div class="px-10 xl:px-20 py-20 xl:py-36">
+        <h1 class="text-4xl md:stext-6xl font-extrabold">
+          Embrace the Nirvana of Elevated Life
+        </h1>
+      </div>
+      <div class="xl:flex h-full">
+        <div class="basis-[70%] xl:flex h-full">
+          <div class="basis-[97%]">
+            <img class="w-full h-full" src="/img/Pic-08.jpg" alt="" />
+          </div>
+          <div class="basis-[3%] bg-red-700"></div>
+        </div>
+        <div
+          class="basis-[30%] flex items-center justify-start px-10 xl:px-0 xl:justify-center"
+        >
+          <div class="flex items-center xl:px-20 gap-5 xl:gap-10 py-10 xl:py-0">
+            <div class="w-[20px] h-[50px] md:h-[80px] bg-red-700"></div>
+            <h2 class="text-4xl font-extrabold">
+              GATED<br />
+              COMMUNITY
+            </h2>
+            <div class="text-4xl xl:text-6xl pl-0 xl:pl-16">
+              <i class="fa-solid fa-arrow-right-to-bracket"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div
+      class="bg-[#fff] p-5 xl:p-20 w-full md:w-[90%] shadow-2xl rounded-r-2xl px-5 mt-[-80px]"
+    >
+      <h3 class="text-md xl:text-2xl">
+        StayVista Nirvana welcomes you with a secure 24/7 gated entry, a
+        inviting waiting lounge, and meticulously landscaped gardens that
+        immerse you in lush greenery from the moment you arrive.
+      </h3>
+    </div>
+
+    <!-- Elevated life end -->
+
+    <!-- Axis Real Estate start -->
+    <section>
+      <div class="text-center py-20 md:py-36 px-10 xl:px-0">
+        <h1 class="text-4xl md:text-6xl font-bold">
+          Axis Real Estate. With you, always..
+        </h1>
+        <div class="flex items-center justify-center pt-5 md:pt-10">
+          <p class="md:max-w-[800px] text-xl">
+            At Axis Real Estate, our legacy is builtupon transforming
+            aspirations intotangible realities. With adistinguished history of
+            success, westand at the forefront of the industry,facilitating
+            seamless connections between landowners and businesses,fostering
+            mutually beneficialpartnerships.
+          </p>
+        </div>
+      </div>
+      <div>
+        <img src="/img/Pic-09.jpg" alt="" />
+      </div>
+    </section>
+    <!-- Axis Real Estate end -->
+
+    <!-- Find your Nirvana start -->
+
+    <section class="pl-5 md:pl-20">
+      <div class="flex items-center gap-10 pt-36">
+        <div class="w-[20px] h-[50px] md:h-[50px] bg-red-700"></div>
+        <h1 class="text-4xl font-extrabold">Find your Nirvana</h1>
+      </div>
+      <div>
+        <p class="pt-5 text-sm md:text-xl pl-16 md:px-16">
+          Nestled amidst the lush, verdant landscapes of Bengaluru, Axis
+          Realty's premier project "StayVista Nirvana" promises an unparalleled
+          weekend getaway experience for the city's discerning elite. Boasting
+          private luxury farmhouses on expansive plots, Stay Vista Nirvana oers
+          a harmonious blend of nature, comfort, and exclusivity a true
+          sanctuary from the urban hustle
+        </p>
+      </div>
+      <div class="md:flex h-full">
+        <div class="basis-1/2 h-full">
+          <div class="flex items-center gap-10 pt-20">
+            <div class="w-[20px] h-[50px] md:h-[50px] bg-red-700"></div>
+            <h1 class="text-4xl font-extrabold">Fractional Ownership</h1>
+          </div>
+          <div>
+            <h1 class="text-4xl font-extrabold px-16">Opportunities</h1>
+          </div>
+          <div>
+            <p class="pl-16 md:px-16 pt-10 text-xl md:text-2xl font-bold">
+              Seeking a savvy real estate investment that delivers exceptional
+              returns?
+            </p>
+          </div>
+          <div>
+            <p class="text-md md:text-xl pl-16 md:px-16 pt-5">
+              Look no further than StayVista Nirvana's innovative fractional
+              ownership model. For a fraction of the full price, you can secure
+              a share in one of our exclusive private farmhouses in Bengaluru's
+              luxurious Nirvana development. Experience the rewards of ownership
+              without the full burden - invest intelligently and watch your
+              returns grow.
+            </p>
+            <p class="text-md md:text-xl px-16 pt-5">
+              Become an investor in this unparalleled farmhouse haven, where
+              nature, comfort and exceptional value converge. Capitalise on
+              Bengaluru's thriving luxury real estate market through this unique
+              fractional ownership opportunity.
+            </p>
+          </div>
+          <!-- second start -->
+          <div class="flex items-center gap-10 pt-20">
+            <div class="w-[20px] h-[50px] md:h-[50px] bg-red-700"></div>
+            <h1 class="text-4xl font-extrabold">Earn Assured</h1>
+          </div>
+          <div>
+            <h1 class="text-4xl font-extrabold pl-16">
+              Rental Income of upto +80,000+
+            </h1>
+          </div>
+          <div>
+            <p class="text-md md:text-xl px-16 pt-5">
+              Unlock the keys to passive income through Stay Vista Nirvana's
+              exclusive farmhouse investment opportunities.
+            </p>
+          </div>
+          <div>
+            <p class="text-md md:text-xl px-16 pt-5">
+              As an investor, you can enjoy an assured rental income of upto
+              780,000 from your share of one of StayVista Nirvana's private
+              farmhouses. This steady stream of passive earnings allows you to
+              capitalise on Bengaluru's booming luxury real estate market.
+            </p>
+            <p class="text-md md:text-xl px-16 pt-5">
+              Invest intelligently in StayVista Nirvana's unparalleled farmhouse
+              haven, where nature, comfort and exceptional value converge.
+              Experience the rewards of ownership without the full burden - let
+              your investment work for you through this assured rental income.
+            </p>
+          </div>
+
+          <!-- third start -->
+          <div class="flex items-center gap-10 pt-20">
+            <div class="w-[20px] h-[50px] md:h-[50px] bg-red-700"></div>
+            <h1 class="text-4xl font-extrabold">The StayVista angle</h1>
+          </div>
+
+          <div>
+            <p class="text-xl px-16 pt-5">
+              The listing with Stay Vista India represents a harmonious
+              convergence of world-class hospitality and cutting-edge luxury.
+              This collaboration epitomizes a shared commitment to redefining
+              luxury travel experiences, seamlessly blending Nirvana's refined
+              elegance with Stay Vista's innovative platform and unmatched local
+              insights, promising unparalleled journeys of comfort, convenience,
+              and truly transcendent moments
+            </p>
+          </div>
+        </div>
+
+        <div class="basis-1/2 flex items-center justify-center md:justify-end">
+          <div class="w-full md:w-[70%] h-full md:h-[40%]">
+            <img class="w-full h-full" src="/img/grid-img-1.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- image start -->
+    <div class="w-full pt-20">
+      <div class="bg-red-100">
+        <img class="w-full h-full" src="/img/Pic-10.jpg" alt="" />
+      </div>
+      <div class="h-[5vh]">
+        <div class="h-full w-full bg-red-700"></div>
+      </div>
+    </div>
+    <!-- image end -->
+
+    <!-- StayVista Nirvana cost start -->
+
+    <section class="px-5 xl:px-20 pt-20">
+      <div class="md:flex">
+        <div class="basis-1/2">
+          <h1 class="text-2xl xl:text-6xl font-bold">StayVista Nirvana cost</h1>
+          <div class="xl:pl-[40%] pt-3">
+            <div class="h-1 w-[60%] xl:w-[90%] bg-red-700"></div>
+          </div>
+        </div>
+        <div
+          class="basis-1/2 flex flex-col items-start xl:items-end justify-center pt-5"
+        >
+          <p>Project Name : <span class="font-bold">StayVista nIRVANA</span></p>
+          <p>
+            Location : <span class="font-bold"> Kanakapura, Karnataka</span>
+          </p>
+        </div>
+      </div>
+      <!-- table start -->
+      <div class="xl:p-36 scroll-hidden pt-10">
+        <div
+          class="bg-[#fff] z-50 xl:shadow-2xl xl:p-10 rounded-2xl mb-[-250px]"
+        >
+          <table>
+            <thead>
+              <tr>
+                <th class="text-4xl text-red-500">Particulars</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="text-xl font-bold">Plot Cost/sqft</td>
+                <td class="text-xl font-bold">₹ 800</td>
+              </tr>
+              <tr>
+                <td class="text-xl font-bold">Plot size (in sqft)</td>
+                <td class="text-xl font-bold">₹ 6960</td>
+              </tr>
+              <tr>
+                <td class="text-xl font-bold">Base Price</td>
+                <td class="text-xl font-bold">₹ 55,68,000</td>
+              </tr>
+              <tr>
+                <td class="text-xl font-bold">Landscape Cost</td>
+                <td class="text-xl font-bold">₹ 6,96,000</td>
+              </tr>
+              <tr>
+                <td class="text-xl font-bold">
+                  Construction Cost of 2BHK Unit
+                </td>
+                <td class="text-xl font-bold">₹ 37,58,400</td>
+              </tr>
+              <tr>
+                <td class="text-xl font-bold">Furnishing and interiors</td>
+                <td class="text-xl font-bold">₹ 20,88,000</td>
+              </tr>
+              <tr>
+                <td class="text-xl font-bold">Jacuzzi</td>
+                <td class="text-xl font-bold">₹ 5,00,000</td>
+              </tr>
+              <tr>
+                <td class="text-xl font-bold">
+                  Common Area Maintainence (1 year)
+                </td>
+                <td class="text-xl font-bold">₹ 36,000</td>
+              </tr>
+              <tr>
+                <td class="text-4xl font-bold text-red-600">Gross Price</td>
+                <td class="text-xl font-bold">₹ 1,26,46,400</td>
+              </tr>
+              <tr>
+                <td class="text-xl font-bold">Stamp Duty and Registration</td>
+                <td class="text-xl font-bold">₹ 3,67,488</td>
+              </tr>
+              <tr>
+                <td class="text-4xl font-bold text-red-700">Net Price</td>
+                <td class="text-xl font-bold">₹ 1,30,13,888</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- StayVista Nirvana cost end -->
+
+    <div>
+      <section class="relative z-[-10] mt-56 xl:mt-0">
+        <div class="lg:flex relative md:px-20">
+          <div
+            class="hidden lg:block bg-grid absolute left-[-50px] top-[-60px] h-[900px] w-[600px]"
+          ></div>
+          <div
+            class="basis-[50%] py-28 lg:py-36 z-30 px-10 sm:pl-20 md:pl-24 lg:pl-0"
+          >
+            <div>
+              <div>
+                <h1 class="text-4xl lg:text-6xl font-bold">Contact Us Today</h1>
+                <h2 class="text-xl lg:text-2xl font-light pt-5">
+                  Begin your journey towards maximizing your real estate
+                  investments.
+                </h2>
+                <p class="text-lg lg:text-xl font-bold pt-10 pb-3">
+                  REACH OUT TO US TODAY:
+                </p>
+                <p class="">
+                  <span class="text-md lg:text-lg font-bold">Vinod Kumar</span
+                  ><br />
+                  <span>CEO, Axis Real Estate</span><br />
+                  +91 91 485 599 97<br />
+                  +91 91 085 665 84
+                </p>
+                <p class="pt-5">
+                  <span class="text-md lg:text-lg font-bold">Tejas Kumar</span
+                  ><br /><span> Operations Head, Axis Real Estate</span><br />
+                  +91 95352 45666
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="basis-[50%] w-full px-10 sm:px-20 md:px-24 lg:pr-0 flex items-center"
+          >
+            <!-- form start -->
+            <form class="w-full rounded-lg flex flex-col justify-center">
+              <p class="text-center py-4 font-bold text-xl">Know More</p>
+              <div class="mb-4">
+                <input
+                  type="text"
+                  placeholder="Name"
+                  class="w-full px-3 py-2 border border-gray-300 rounded-lg"
+                />
+              </div>
+              <div class="mb-4">
+                <input
+                  type="text"
+                  placeholder="Contact Number"
+                  class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-500"
+                />
+              </div>
+              <div class="mb-4">
+                <input
+                  type="email"
+                  placeholder="Email"
+                  class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-500"
+                />
+              </div>
+              <div class="text-right">
+                <button
+                  type="submit"
+                  class="py-2 px-10 bg-[#000] text-white rounded-md hover:bg-[#2a2929] transition duration-300"
+                >
+                  Submit
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Experience the Axis Advantage end-->
+    <!-- Find your Nirvana end -->
+
+    <!-- footer start -->
+
+    <section class="pt-10 lg:pt-0">
+      <div class="md:flex bg-[#212121]">
+        <div
+          class="basis-[100%] md:flex items-center justify-start p-10 md:p-20 gap-10 md:pr-20"
+        >
+          <div>
+            <img class="h-24" src="/img/logo.png" alt="" />
+          </div>
+          <div class="w-[300px] pt-5 md:pt-0">
+            <p class="text-white">
+              Let Axis Real Estate be your guide to discovering the perfect
+              property, tailored to your desires and aspirations
+            </p>
+          </div>
+        </div>
+        <div class="basis-[100%]"></div>
+      </div>
+      <div class="md:flex p-5 px-10 xl:px-0 bg-[#212121]">
+        <div
+          class="basis-[100%] pr-0 md:pr-64 flex items-center justify-start md:justify-center"
+        >
+          <p class="text-white">
+            &copy;Comapany Name 2024. All rights reserved
+          </p>
+        </div>
+        <div class="basis-[100%] pt-10 lg:pt-0 md:pr-20 lg:pr-40">
+          <div class="flex items-center justify-start md:justify-end gap-10">
+            <a href="">
+              <i class="fa-brands fa-facebook-f text-white"></i>
+            </a>
+            <a href="">
+              <i class="fa-brands fa-instagram text-white"></i>
+            </a>
+            <a href="">
+              <i class="fa-brands fa-linkedin-in text-white"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer end-->
+
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  </body>
+</html>
